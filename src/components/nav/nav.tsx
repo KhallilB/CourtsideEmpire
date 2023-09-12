@@ -1,21 +1,21 @@
-import { LogoText, NavContainer, NavContent } from './nav.style'
+import { LogoText, NavContainer, NavContent, NavLink } from './nav.style'
 
 const Nav = () => {
   return (
     <NavContainer>
       <NavContent>
         <div className="flex flex-row">
-          <p className="px-4">About</p>
-          <p className="px-4">Leagues</p>
-          <p className="px-4">Offline</p>
+          <NavLink>About</NavLink>
+          <NavLink>Leagues</NavLink>
+          <NavLink>Offline</NavLink>
         </div>
 
         <LogoText>Courtside Empire</LogoText>
 
         <div className="flex flex-row">
-          <p className="px-4">Leaderboards</p>
-          <p className="px-4">Sign Up</p>
-          <p className="px-4">Log In</p>
+          <NavLink>Leaderboards</NavLink>
+          <NavLink>Sign Up</NavLink>
+          <NavLink>Log In</NavLink>
         </div>
       </NavContent>
     </NavContainer>
