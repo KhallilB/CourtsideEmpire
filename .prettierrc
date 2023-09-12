@@ -1,0 +1,8 @@
+{
+    "plugins": [
+      "prettier-plugin-organize-imports",
+      "prettier-plugin-tailwind-styled-components"
+    ],
+    "pluginSearchDirs": false
+  }
+  
