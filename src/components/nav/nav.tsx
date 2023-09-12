@@ -1,10 +1,12 @@
 import React from "react";
 
+import { NavContainer, LogoText } from "./nav.style";
+
 const Nav = () => {
     return (
-        <nav>
-            <h1>Courtside Empire</h1>
-        </nav>
+        <NavContainer>
+            <LogoText>Courtside Empire</LogoText>
+        </NavContainer>
     )
 }
 
